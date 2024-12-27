@@ -341,3 +341,55 @@ footer {
   height: 60px; /* Increased height for the logo in other sections */
   width: auto;
 }
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and larger screens */
+@media (min-width: 768px) {
+  .card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card {
+    width: 45%;
+    margin: 10px;
+  }
+
+  .book-now-form-container,
+  .register-form-container {
+    max-width: 800px;
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-brand img {
+    height: 40px; /* Adjusted height for smaller screens */
+    margin-bottom: 10px;
+  }
+
+  .whatsapp-icon-corner img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .home h2 {
+    font-size: 2rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+
+  .about-us h2 {
+    font-size: 2rem;
+  }
+
+}
