@@ -1,15 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles.css';
-
-function Navbar() {
+function Navbar() { const [menuOpen, setMenuOpen] = useState(false); const toggleMenu = () => { setMenuOpen(!menuOpen); };
   return (
     <nav className="navbar">
       <div className="navbar-brand">
         <img src="logo.png" alt="Logo" />
       </div>
-      <div className="menu-icon" onClick={toggleMenu}>
-        &#9776; {/* Three horizontal lines icon */}
-      </div>
+      <div className="menu-icon" onClick={toggleMenu}> &#9776; {/* Three horizontal lines icon */} </div>
       <ul className="nav-links" id="navLinks">
         <li className="nav-item"><a href="#home" className="nav-link">Home</a></li>
         <li className="nav-item"><a href="#services" className="nav-link">Services</a></li>
