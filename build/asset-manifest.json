@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5890582e.css",
+    "main.js": "/static/js/main.35d2b51a.js",
+    "static/media/car-wash.jpg": "/static/media/car-wash.30e496b21b6a51a303ed.jpg",
+    "static/media/car-repair.jpg": "/static/media/car-repair.db322451ca4a57f864df.jpg",
+    "static/media/logo.png": "/static/media/logo.69e7b5cd51806f8e4a04.png",
+    "static/media/car-service.jpg": "/static/media/car-service.55cbac8012812e518d75.jpg",
+    "index.html": "/index.html",
+    "main.5890582e.css.map": "/static/css/main.5890582e.css.map",
+    "main.35d2b51a.js.map": "/static/js/main.35d2b51a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5890582e.css",
+    "static/js/main.35d2b51a.js"
+  ]
+}

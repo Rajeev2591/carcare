@@ -1,0 +1,343 @@
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2c3e50;
+  background-color: #ecf0f1;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  max-width: 1140px;
+  padding: 15px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343a40;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 60px; /* Increased height for the logo */
+  width: auto;
+  margin-right: 10px;
+}
+
+.nav-item .nav-link {
+  color: #fff;
+  padding: 10px;
+}
+
+.nav-item .nav-link:hover {
+  color: #4CAF50;
+}
+
+.whatsapp-icon {
+  height: 20px;
+  width: auto;
+  margin-right: 5px;
+}
+
+.signup-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.signup-btn:hover {
+  background-color: #45a049;
+}
+
+/* WhatsApp Icon Bottom Left Corner */
+.whatsapp-icon-corner {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #25D366;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.whatsapp-icon-corner img {
+  height: 50px;
+  width: 50px;
+}
+
+/* Home Section */
+.home {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.home h2 {
+  color: #343a40;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home p {
+  color: #495057;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* About Us Section */
+.about-us {
+  background-color: #d9f1ff;
+  padding: 50px 0;
+  color: #343a40;
+}
+
+.about-us h2 {
+  color: #17a2b8;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+.about-us p {
+  color: #495057;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  padding: 20px;
+}
+
+.card img {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.card-content h3 {
+  color: #17a2b8;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  color: #495057;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Book Now Form */
+.book-now-form-container {
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+.book-now-form-container h2 {
+  color: #4CAF50;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.book-now-form-container .form-group {
+  margin-bottom: 20px;
+}
+
+.book-now-form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.book-now-form-container input,
+.book-now-form-container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.book-now-form-container input:focus,
+.book-now-form-container select:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.book-now-form-container .btn-submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.book-now-form-container .btn-submit:hover {
+  background-color: #45a049;
+}
+
+/* Register Form */
+.register-form-container {
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+.register-form-container h2 {
+  color: #4CAF50;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.register-form-container .form-group {
+  margin-bottom: 20px;
+}
+
+.register-form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.register-form-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.register-form-container input:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+.register-form-container .btn-submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.register-form-container .btn-submit:hover {
+  background-color: #45a049;
+}
+
+/* Contact Section */
+.contact {
+  padding: 50px 0;
+  color: #343a40;
+}
+
+.contact h2 {
+  color: #4CAF50;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.contact .contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact .contact-info i {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.contact .contact-info p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #343a40;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* Custom Styles */
+.text-primary {
+  color: #e74c3c !important;
+}
+
+.text-success {
+  color: #27ae60 !important;
+}
+
+.text-info {
+  color: #3498db !important;
+}
+
+.text-warning {
+  color: #f39c12 !important;
+}
+
+.logo {
+  height: 60px; /* Increased height for the logo in other sections */
+  width: auto;
+}
