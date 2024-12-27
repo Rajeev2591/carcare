@@ -4,6 +4,15 @@ import logoImage from '../assets/logo.png'; // Ensure the correct path to your l
 import whatsappIcon from '../assets/whatsapp-icon.png'; // Ensure the correct path to your WhatsApp icon
 
 function Navbar() {
+  const toggleMenu = () => {
+    const navLinks = document.getElementById('navLinks');
+    if (navLinks.style.display === 'block') {
+      navLinks.style.display = 'none';
+    } else {
+      navLinks.style.display = 'block';
+    }
+  };
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
@@ -11,6 +20,9 @@ function Navbar() {
           <img src={logoImage} alt="Logo" className="logo" />
           Car Care
         </NavLink>
+        <div className="menu-icon" onClick={toggleMenu}>
+        &#9776; {/* Three horizontal lines icon */}
+      </div>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

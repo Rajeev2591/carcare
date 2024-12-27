@@ -418,3 +418,63 @@ footer {
     font-size: 2.5rem;
   }
 }
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #343a40;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 60px; /* Adjust the logo height as needed */
+  width: auto;
+  margin-right: 10px;
+}
+
+.nav-links {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item .nav-link {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.nav-item .nav-link:hover {
+  color: #4CAF50;
+}
+
+/* Menu icon for mobile view */
+.menu-icon {
+  display: block;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* Media Queries for larger screens */
+@media (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+}
+
+/* Show menu links when toggled */
+.nav-links.show {
+  display: block;
+}
